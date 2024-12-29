@@ -1,24 +1,26 @@
 {
-  "api_version": 2,
-  "id": "com.ovehbe.ulauncher-printer",
-  "name": "Printer Extension",
-  "description": "Send text to a printer using a Ulauncher keyword.",
-  "developer_name": "Ömer Vehbe",
-  "icon": "images/icon.png",
-  "version": "1.0.0",
-  "preferences": [
-    {
-      "id": "printer_name",
-      "type": "text",
-      "name": "Printer Name",
-      "description": "Name of the printer (e.g., MHT-P11)"
-    }
-  ],
-  "keywords": [
-    {
-      "keyword": "p",
-      "name": "Printer Command",
-      "description": "Send text to the printer"
-    }
-  ]
+    "required_api_version": "^2.0.0",
+    "name": "Printer Extension",
+    "description": "Send text to a printer using a Ulauncher keyword.",
+    "developer_name": "Ömer Vehbe",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.05
+    },
+    "preferences": [
+        {
+            "id": "printer_name",
+            "type": "text",
+            "name": "Printer Name",
+            "description": "Name of the printer (e.g., MHT-P11)"
+        }
+    ],
+    "keywords": [
+        {
+            "keyword": "p",
+            "name": "Printer Command",
+            "description": "Send text to the printer"
+        }
+    ]
 }
+
