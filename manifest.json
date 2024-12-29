@@ -17,7 +17,7 @@
     },
     {
       "id": "printer",
-      "type": "text",  // <--- change "string" to "text"
+      "type": "text",
       "name": "Printer Name",
       "description": "Name of the target printer (e.g. POS58). Leave blank for default system printer",
       "default_value": ""
