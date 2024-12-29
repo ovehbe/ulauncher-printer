@@ -9,17 +9,20 @@
     },
     "preferences": [
         {
-            "id": "printer_name",
-            "type": "text",
-            "name": "Printer Name",
-            "description": "Name of the printer (e.g., MHT-P11)"
+            "id": "keyword",
+            "type": "keyword",
+            "name": "Extension Keyword",
+            "description": "Type this keyword to trigger the extension",
+            "default_value": "p"
         }
     ],
     "keywords": [
         {
-            "keyword": "p",
-            "name": "Printer Command",
-            "description": "Send text to the printer"
+            "id": "printer",
+            "type": "string",
+            "name": "Printer Name",
+            "description": "Name of the target printer (e.g. POS58). Leave blank for default system printer",
+            "default_value": ""
         }
     ]
 }
