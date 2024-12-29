@@ -1,3 +1,2 @@
-# For this simple approach using subprocess, no external python packages are required.
-# However, if you want to print with advanced features or a different system, you might add dependencies here.
+# No extra Python packages needed for this simple approach
 

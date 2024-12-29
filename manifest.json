@@ -4,9 +4,6 @@
   "description": "Send text to a printer using a Ulauncher keyword.",
   "developer_name": "Ömer Vehbe",
   "icon": "images/icon.png",
-  "options": {
-    "query_debounce": 0.05
-  },
   "preferences": [
     {
       "id": "keyword",
