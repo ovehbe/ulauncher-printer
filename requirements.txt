@@ -1,0 +1,3 @@
+Specify dependencies (none required for this extension):
+```plaintext
+ulauncher-api
