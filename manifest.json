@@ -1,29 +1,27 @@
 {
-    "required_api_version": "^2.0.0",
-    "name": "Printer Extension",
-    "description": "Send text to a printer using a Ulauncher keyword.",
-    "developer_name": "Ömer Vehbe",
-    "icon": "images/icon.png",
-    "options": {
-        "query_debounce": 0.05
+  "required_api_version": "^2.0.0",
+  "name": "Printer Extension",
+  "description": "Send text to a printer using a Ulauncher keyword.",
+  "developer_name": "Ömer Vehbe",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "keyword",
+      "type": "keyword",
+      "name": "Extension Keyword",
+      "description": "Type this keyword to trigger the extension",
+      "default_value": "p"
     },
-    "preferences": [
-        {
-            "id": "keyword",
-            "type": "keyword",
-            "name": "Extension Keyword",
-            "description": "Type this keyword to trigger the extension",
-            "default_value": "p"
-        }
-    ],
-    "keywords": [
-        {
-            "id": "printer",
-            "type": "string",
-            "name": "Printer Name",
-            "description": "Name of the target printer (e.g. POS58). Leave blank for default system printer",
-            "default_value": ""
-        }
-    ]
+    {
+      "id": "printer",
+      "type": "string",
+      "name": "Printer Name",
+      "description": "Name of the target printer (e.g. POS58). Leave blank for default system printer",
+      "default_value": ""
+    }
+  ]
 }
 
